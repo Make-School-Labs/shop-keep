@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0529E2E82031624E00317728 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0529E2E72031624E00317728 /* EmployeeViewController.swift */; };
 		05622BA520312912006DDB43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05622BA420312912006DDB43 /* AppDelegate.swift */; };
-		05622BA720312912006DDB43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05622BA620312912006DDB43 /* ViewController.swift */; };
+		05622BA720312912006DDB43 /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05622BA620312912006DDB43 /* ShopsViewController.swift */; };
 		05622BAA20312912006DDB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05622BA820312912006DDB43 /* Main.storyboard */; };
 		05622BAD20312912006DDB43 /* shop_keep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05622BAB20312912006DDB43 /* shop_keep.xcdatamodeld */; };
 		05622BAF20312912006DDB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05622BAE20312912006DDB43 /* Assets.xcassets */; };
 		05622BB220312912006DDB43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05622BB020312912006DDB43 /* LaunchScreen.storyboard */; };
+		05622BBA20312A3C006DDB43 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05622BB920312A3C006DDB43 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0529E2E72031624E00317728 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
 		05622BA120312912006DDB43 /* shop-keep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shop-keep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05622BA420312912006DDB43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05622BA620312912006DDB43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05622BA620312912006DDB43 /* ShopsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsViewController.swift; sourceTree = "<group>"; };
 		05622BA920312912006DDB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05622BAC20312912006DDB43 /* shop_keep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shop_keep.xcdatamodel; sourceTree = "<group>"; };
 		05622BAE20312912006DDB43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05622BB120312912006DDB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05622BB320312912006DDB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05622BB920312A3C006DDB43 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				05622BA420312912006DDB43 /* AppDelegate.swift */,
-				05622BA620312912006DDB43 /* ViewController.swift */,
+				05622BA620312912006DDB43 /* ShopsViewController.swift */,
+				0529E2E72031624E00317728 /* EmployeeViewController.swift */,
 				05622BA820312912006DDB43 /* Main.storyboard */,
 				05622BAE20312912006DDB43 /* Assets.xcassets */,
 				05622BB020312912006DDB43 /* LaunchScreen.storyboard */,
 				05622BB320312912006DDB43 /* Info.plist */,
 				05622BAB20312912006DDB43 /* shop_keep.xcdatamodeld */,
+				05622BB920312A3C006DDB43 /* CoreDataStack.swift */,
 			);
 			path = "shop-keep";
 			sourceTree = "<group>";
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05622BA720312912006DDB43 /* ViewController.swift in Sources */,
+				0529E2E82031624E00317728 /* EmployeeViewController.swift in Sources */,
+				05622BA720312912006DDB43 /* ShopsViewController.swift in Sources */,
 				05622BA520312912006DDB43 /* AppDelegate.swift in Sources */,
 				05622BAD20312912006DDB43 /* shop_keep.xcdatamodeld in Sources */,
+				05622BBA20312A3C006DDB43 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
